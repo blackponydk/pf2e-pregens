@@ -1,0 +1,42 @@
+{
+    "id": "PF2e-pregens",
+    "title": "PF2e Pregens",
+    "description": "A collection of Pathfinder 2e Pregens.",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Me",
+            "discord": "Discord Handle",
+            "url": "https://website.com"
+        }
+    ],
+    "compatibility": {
+        "minimum": "10.288",
+        "verified": "10.288"
+    },
+    "relationships": {
+        "systems": [
+          {
+            "id": "pf2e",
+            "type": "system",
+            "manifest": "https://github.com/foundryvtt/pf2e/releases/download/latest/system.json",
+            "compatibility": {
+              "minimum": "4.2.6",
+              "verified": "4.2.6"
+            }
+          }
+        ]
+      },
+    "packs": [
+        {
+            "name": "pf2e-pregens",
+            "label": "Pathfinder 2e Character Pregens",
+            "path": "./packs/pregens.db",
+            "entity": "Actor",
+            "type": "Actor",
+            "system": "pf2e"
+        }
+    ],
+    "manifest": "https://github.com/blackponydk/pf2e-pregens/releases/download/latest/module.json",
+    "download": "https://github.com/blackponydk/pf2e-pregens/releases/download/latest/pf2e-pregens.zip"
+  }
